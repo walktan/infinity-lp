@@ -1,0 +1,142 @@
+div.left-top-templete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+div.left-top-templete img {
+  max-width: 180px;
+}
+
+div.left-bottom-templete {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+div.left-bottom-templete img {
+  max-width: 180px;
+}
+
+div.right-top-templete {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+div.right-top-templete img {
+  max-width: 180px;
+}
+
+div.right-bottom-templete {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+div.right-bottom-templete img {
+  max-width: 180px;
+}
+
+@font-face {
+  font-family: 'NxieOne';
+  src: url('../fonts/NixieOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'VarelaRound';
+  src: url('../fonts/VarelaRound-Regular.ttf') format('truetype');
+}
+
+div.content {
+  font-family: VarelaRound,NxieOne,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  color: #617a86;
+  text-align: center;
+  position:relative;
+}
+
+div.content h1 {
+  font-family: NxieOne,VarelaRound,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 94px;
+  font-weight: normal;
+  margin-top: 100px;
+  z-index: 100;
+}
+
+div.content-top-img {
+  margin-top: 100px;
+  z-index: 100;
+}
+div.content-top-img img {
+  width: 1100px;
+}
+
+div.content-top-text {
+  margin-top: 80px;
+  font-size: 24px;
+  z-index: 100;
+}
+
+div.try-nft {
+  margin-top: 100px;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  z-index: 1;
+  position: relative;
+  font-size: 42px;
+  font-family: NxieOne,VarelaRound,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+div.try-nft-text {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+div.try-nft-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+div.nft-possibilities {
+  z-index: 100;
+  margin: 80px 0 auto;
+}
+
+div.nft-possibilities-title {
+  font-size: 42px;
+}
+
+div.nft-possibilities-text-box {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+div.nft-possibilities-text {
+  font-size: 22px;
+  text-align: left;
+}
+
+div.nft-possibilities-img {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+div.nft-possibilities-img-left {
+  width: 67%;
+}
+
+div.nft-possibilities-img-left img {
+  width: 100%;
+}
+
+div.nft-possibilities-img-right {
+  width: 33%;
+  text-align: left;
+  font-size: 18px;
+  margin: auto;
+}
