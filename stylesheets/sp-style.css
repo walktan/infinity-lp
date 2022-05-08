@@ -1,13 +1,203 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <title>We are ∞ infinity | NFT pjt. from Japan</title>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <div class="left-top-templete">
-      <img src="images/left-top.png" alt="左上固定位置の飾り">
-    </div>
-    hello infinity.
-  </body>
-</html>
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 0;
+  }
+
+  div.wrap {
+    overflow: hidden;
+  }
+
+  div.title {
+    position: relative;
+  }
+
+  div.left-top-templete, div.right-top-templete, div.left-bottom-templete, div.right-bottom-templete {
+    position: absolute;
+  }
+
+  div.left-bottom-templete, div.right-bottom-templete {
+    bottom: 1;
+  }
+
+  div.left-top-templete img, div.right-top-templete img, div.left-bottom-templete img, div.right-bottom-templete img {
+    max-width: 50px;
+  }
+
+  div.content h1 {
+    font-size: 48px;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+
+  div.content-top-img img {
+    width: 95%;
+  }
+
+  div.nft-possibilities-text-box {
+    width: 95%;
+  }
+
+  div.scheme-text-box {
+    width: 95%;
+  }
+
+  div.merit-img img {
+    width: 95%;
+  }
+
+  div.deliver-talent-text {
+    position: relative;
+  }
+
+  div.scheme-text {
+    margin: 0 20px;
+  }
+
+  div.member-profiles {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  div.scheme-text p.heading{
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  div.scheme-text p.text {
+    font-size: 18px;
+    margin: 0 20px;
+  }
+
+  div.content-top-text-wrap {
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  div.content-top-text {
+    text-align: left;
+  }
+
+  div.content-top-img {
+    margin-top: 60px;
+  }
+
+  div.try-nft {
+    display: none;
+  }
+
+  div.nft-possibilities-text-box {
+    margin: 0 10px;
+    box-sizing: border-box;
+  }
+
+  div.nft-possibilities-text-wrapp {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  div.nft-possibilities-title {
+    font-size: 32px;
+  }
+
+  div.nft-possibilities-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  div.nft-possibilities-img-left {
+    margin: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  div.nft-possibilities-img-left img {
+    width: 80%;
+  }
+
+  div.nft-possibilities-img-right {
+    width: 80%;
+    font-size: 15px;
+    margin: auto;
+  }
+
+  div.deliver-talent {
+    margin: 80px 0 0 0;
+    font-size: 32px;
+  }
+
+  div.deliver-talent p {
+    margin: 0;
+    font-weight: normal;
+  }
+
+  div.merit-title {
+    font-weight: normal;
+    font-size: 32px;
+  }
+
+  div.merit-top-text p.blue-heading {
+    font-size: 26px;
+  }
+
+  div.merit-top-text p {
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  div.merit-bottom-text p.red-heading {
+    font-size: 26px;
+  }
+
+  div.merit-bottom-text p {
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  div.scheme {
+    margin-top: 40px;
+    font-weight: normal;
+  }
+
+  div.scheme-title {
+    font-size: 32px;
+  }
+
+  div.deliver-talent-text {
+    position: relative;
+  }
+
+  div.member-profiles {
+    display: block;
+  }
+
+  div.member-profiles div.profile {
+    width: 90%;
+    margin: 80px auto;
+  }
+
+  div.member-profiles div.profile img {
+    width: 60%;
+  }
+
+  div.member-text {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 10px;
+  }
+
+  div.member-text p {
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+  }
+}

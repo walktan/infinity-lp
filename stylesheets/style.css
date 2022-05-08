@@ -1,3 +1,11 @@
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
 div.left-top-templete {
   position: fixed;
   top: 0;
@@ -5,7 +13,7 @@ div.left-top-templete {
   z-index: 10;
 }
 div.left-top-templete img {
-  max-width: 180px;
+  max-width: 150px;
 }
 
 div.left-bottom-templete {
@@ -15,7 +23,7 @@ div.left-bottom-templete {
   z-index: 10;
 }
 div.left-bottom-templete img {
-  max-width: 180px;
+  max-width: 150px;
 }
 
 div.right-top-templete {
@@ -25,7 +33,7 @@ div.right-top-templete {
   z-index: 10;
 }
 div.right-top-templete img {
-  max-width: 180px;
+  max-width: 150px;
 }
 
 div.right-bottom-templete {
@@ -35,7 +43,7 @@ div.right-bottom-templete {
   z-index: 10;
 }
 div.right-bottom-templete img {
-  max-width: 180px;
+  max-width: 150px;
 }
 
 @font-face {
@@ -59,7 +67,7 @@ div.content h1 {
   font-family: NxieOne,VarelaRound,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-size: 94px;
   font-weight: normal;
-  margin-top: 100px;
+  padding-top: 100px;
   z-index: 100;
 }
 
@@ -68,10 +76,10 @@ div.content-top-img {
   z-index: 100;
 }
 div.content-top-img img {
-  width: 1100px;
+  width: 900px;
 }
 
-div.content-top-text {
+div.content-top-text-wrap {
   margin-top: 80px;
   font-size: 24px;
   z-index: 100;
@@ -110,12 +118,17 @@ div.nft-possibilities-title {
 }
 
 div.nft-possibilities-text-box {
-  width: 1100px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+div.nft-possibilities-text-wrapp {
+  width: 80%;
   margin: 0 auto;
 }
 
 div.nft-possibilities-text {
-  font-size: 22px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -136,7 +149,7 @@ div.nft-possibilities-img-left img {
 div.nft-possibilities-img-right {
   width: 33%;
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
   margin: auto;
 }
 
@@ -173,12 +186,12 @@ div.scheme-title {
 }
 
 div.scheme-text-box {
-  width: 1100px;
+  width: 900px;
   margin: 0 auto;
 }
 
 div.scheme-text {
-  font-size: 28px;
+  font-size: 22px;
   text-align: left;
   width: 100%;
 }
@@ -213,7 +226,7 @@ div.merit-top-text p {
 }
 
 div.merit-img img {
-  width: 1100px;
+  width: 900px;
 }
 
 div.merit-bottom-text p.red-heading {
@@ -240,7 +253,7 @@ div.member-title {
 
 div.member-profiles {
   display: flex;
-  margin: 10px 200px;
+  margin: 10px 150px;
 }
 
 div.member-profiles div.profile {
@@ -264,8 +277,12 @@ div.member-profiles div.profile p.position, div.member-profiles div.profile p.de
   margin: 10px 0 0 0;
 }
 
+div.member-text {
+  margin-top: 30px;
+}
 div.member-text p {
   font-size: 24px;
+  margin: 0.5em;
 }
 
 div.soon {
