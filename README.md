@@ -1,2 +1,1 @@
 # infinity-lp
-tmp
